@@ -1,0 +1,102 @@
+.flags-container {
+    display: flex; /* Enables flexbox */
+    flex-wrap: wrap; /* Allows wrapping to the next line if necessary */
+    justify-content: center; /* Centers the flags horizontally */
+    gap: 20px; /* Adds space between flags */
+    margin: 20px;
+}
+
+
+
+.flag, .flag1 {
+    display: inline-block; /* Keeps each flag as a block */
+    text-align: center; /* Centers text under the flag */
+    
+}
+
+
+
+.a{
+    background-color: #ff0000c1;
+    height: 120px;
+  width: 400px;
+}
+.b{
+    background-color:white;
+    height: 120px;
+    width: 400px;
+}
+.c{
+    background-color:blue;
+    height: 120px;
+    width: 400px;
+  
+}
+
+
+
+.d{
+    background-color:white;
+  width: 300px;
+   
+    height: 200px;
+    
+    display: inline-block;
+   
+}
+.e{
+    
+    background-color: hsla(356, 100%, 50%, 0.909);
+    
+     padding: 50px;
+     margin-left: 80px;
+    
+}
+.f{
+        
+        background-color:green;
+        
+        padding: 50px;
+        margin-left: 80px;
+     
+     }
+     .flag2{
+       
+        margin-top: 70px;
+        text-align: center;
+        display: inline-block; /* Keeps each flag as a block */
+     }
+     .name1{
+        margin-top: 60px;
+     }
+     
+
+     .g{
+        background-color: #16C47F;
+        padding: 50px;
+        margin-top: 300px;
+        display: inline;
+    }
+   
+    .h{
+        background-color: #FEEC37;
+        padding: 50px;
+        margin-top: 300px;
+        
+        display: inline;
+    }
+    .i{
+        background-color: red;
+        padding: 50px;
+        margin-top: 300px;
+    
+        display: inline;
+        
+    }
+   
+body{
+
+    background-color: rgb(226, 200, 200);
+    
+   
+}
